@@ -1,4 +1,4 @@
-FROM killercentury/iojs-bower-grunt
+FROM killercentury/nodejs-bower-grunt
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
